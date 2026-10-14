@@ -1,6 +1,8 @@
 # Dosya açmak ve oluşturmak için open() fonksiyonu kullanılır.
 # Kullanım : open(dosya_adi,dosya_erisme_modu) şeklindedir.
 # Dosya Erişme Modu => dosyayı hangi amaçla açtığımızı belirler.
+
+
 # "w" : (Write) yazma,
 #  **dosyayı konumda oluşturur.
 #  **dosya içeriğini siler ve yeniden ekleme yapar.
@@ -21,7 +23,7 @@
 
 
 # "x" : (Create) oluşturma, dosya zaten varsa hata verir.
+# file = open("newfile2.txt", "x", encoding="utf-8")
 
-file = open("newfile2.txt", "x", encoding="utf-8")
 
 # "r" : (Read) okuma, varsayılan dosya konumda yoksa hata verir.
