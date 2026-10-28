@@ -55,9 +55,9 @@ class Quiz:
         print(f" Soru {questionnumber} / {totalquestion} ".center(100, "*"))
 
 
-q1 = Questions("En sevdiğin renk?", ["Kırmızı", "Mavi", "Yeşil"], "Mavi")
-q2 = Questions("Python nesne yönelimli midir?", ["Evet", "Hayır"], "Evet")
-q3 = Questions("2 + 2 kaç eder?", ["3", "4", "5"], "4")
+q1 = Questions("soru1:", ["cevap1", "cevap2", "cevap3"], "cevap1")
+q2 = Questions("soru2:", ["cevap1", "cevap2"], "cevap2")
+q3 = Questions("soru3:", ["cevap1", "cevap2", "cevap3"], "cevap3")
 
 questions = [q1, q2, q3]
 
