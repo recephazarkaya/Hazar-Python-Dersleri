@@ -37,10 +37,10 @@ file = open("newfile.txt", "r", encoding="utf-8")
 
 # readlines fonksiyonu
 
-liste = file.readlines(0)
-liste = file.readlines(1)
-liste = file.readlines(2)
-print(liste)
+# liste = file.readlines(0)
+# liste = file.readlines(1)
+# liste = file.readlines(2)
+# print(liste)
 
 
 file.close()
