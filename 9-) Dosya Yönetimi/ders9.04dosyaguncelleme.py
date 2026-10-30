@@ -1,0 +1,31 @@
+# with open("newfile.txt", "r+", encoding="utf-8") as file:
+#     file.seek(20)
+#     content = file.write("deneme")
+#     print(content)
+
+# with open("newfile.txt", "r+", encoding="utf-8") as file:
+#     print(file.read())
+
+# with open("newfile.txt", "a", encoding="utf-8") as file:
+#     file.write("\nkastamonu")
+
+
+"""sayfa basinda güncelleme"""
+
+# with open("newfile.txt", "r+", encoding="utf-8") as file:
+#     content = file.read()
+#     content = "kastamonu\n" + content
+#     file.seek(0)
+#     file.write(content)
+
+"""sayfa ortasinda güncelleme"""
+
+with open("newfile.txt", "r+", encoding="utf-8") as file:
+    list = file.readlines()
+    list.insert(1, "abana\n")
+    file.seek(0)
+    for i in list:
+        file.write(i)
+
+with open("newfile.txt", "r", encoding="utf-8") as file:
+    print(file.read())
